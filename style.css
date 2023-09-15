@@ -1,0 +1,20 @@
+/* Center the design both horizontally and vertically */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#driverList p {
+    cursor: pointer;
+    margin-right: 10px; /* Add spacing between driver names */
+    display: inline; /* Display driver names in a single row */
+}
+
+
+.hidden {
+    display: none;
+}
